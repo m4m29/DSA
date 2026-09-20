@@ -1,3 +1,7 @@
+// Vì cần qua tâm xe phía sau có vượt xe phía trước hay không,
+// ta hãy sắp xếp các xe sao cho xe nào gần target nhất thì nằm bên phải
+// vì dụ 0 ---- 5 ---- 8 ---- 10 ---- 12
+//                                  target 
 class Solution {
     public int carFleet(int target, int[] position, int[] speed) {
         Stack<Double> stack = new Stack<>();
